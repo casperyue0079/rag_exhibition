@@ -1,0 +1,9 @@
+# ASR 语音识别纠错：每行 "误识别 => 正确词"，仅对语音请求生效
+# 专有名词、领域词容易被识别成发音相近的常见词，在此映射后发给 Agent
+# 按行生效，前面 # 为注释
+going => Guanyin
+go in => Guanyin
+go and in => Guanyin
+paul own ya => Paulownia
+bodhisattva => Bodhisattva
+amitabha => Amitabha

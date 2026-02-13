@@ -1,0 +1,38 @@
+# Python
+server/.venv/
+__pycache__/
+*.pyc
+
+# Editors
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+
+@"
+# --- local models / binaries (do not commit) ---
+models/piper_win64/
+models/vosk-*/
+*.onnx
+*.wav
+
+# venv
+server/.venv/
+server/venv/
+client/.venv/
+.venv/
+
+# env / local secrets
+server/.env
+
+# RAG local data
+chroma_db/
+
+# Python cache
+__pycache__/
+*.pyc
+"@ | Out-File -FilePath .gitignore -Encoding utf8 -Append
+
